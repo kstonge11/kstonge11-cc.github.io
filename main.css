@@ -31,10 +31,20 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://i.imgur.com/MZZ8Wvb.jpg');
+  background-image: url('https://i.imgur.com/l5aIHHf.jpg?1');
   background-size: cover;
   color: #ffffff;
   height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron2 {
+  display: flex;
+  align-items: center;
+  background-image: url('https://i.imgur.com/z37SAxy.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 1000px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -46,6 +56,17 @@ header p {
 }
 
 .jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.jumbotron2 h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron2 h3 {
   margin: 0 0 20px;
   color: #fff;
 }
