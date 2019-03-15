@@ -42,7 +42,8 @@ header p {
   display: flex;
   align-items: center;
   background-image: url('https://i.imgur.com/z37SAxy.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   color: #ffffff;
   height: 1000px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
